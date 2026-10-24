@@ -32,8 +32,8 @@ services:
       - devtools-network
 
 networks:
-  devtools-network:
-    driver: bridge
+  caddynet:
+    external: true
 
 # Optional: Add a development configuration
 # Use: docker-compose -f docker/docker-compose.yml -f docker/docker-compose.dev.yml up
