@@ -5,7 +5,7 @@ services:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    image: browser-operator-devtools:0.6.0
+    image: browser-operator-devtools
     container_name: browser-operator-devtools
     ports:
       - "8000:8000"    # DevTools nginx
